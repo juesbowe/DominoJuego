@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.espol.domino.ComodinDobleController">
+   <children>
+      <ImageView fitHeight="364.0" fitWidth="539.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../img/istockphoto-1303915114-612x612.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane fx:id="mod20" prefHeight="356.0" prefWidth="533.0">
+         <top>
+            <ImageView fitHeight="150.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../img/png-transparent-t-shirt-wham-clothing-printing-iron-on-t-shirt-text-logo-choose-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </top>
+         <left>
+            <ImageView fitHeight="150.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <ImageView fitHeight="150.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <ImageView fitHeight="63.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox fx:id="comdo" alignment="BOTTOM_CENTER" prefHeight="91.0" prefWidth="394.0" />
+                  <HBox fx:id="comdo1" alignment="BOTTOM_CENTER" layoutX="4.0" layoutY="102.0" prefHeight="100.0" prefWidth="386.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</Pane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.espol.domino.ComodinController">
+   <children>
+      <ImageView fitHeight="375.0" fitWidth="533.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../img/istockphoto-1303915114-612x612.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane fx:id="mod12" prefHeight="347.0" prefWidth="533.0">
+         <top>
+            <ImageView fitHeight="87.0" fitWidth="654.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../img/png-transparent-t-shirt-wham-clothing-printing-iron-on-t-shirt-text-logo-choose-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </top>
+         <left>
+            <ImageView fitHeight="150.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <ImageView fitHeight="150.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <AnchorPane prefHeight="16.0" prefWidth="636.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <AnchorPane prefHeight="244.0" prefWidth="427.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox fx:id="com1" alignment="BOTTOM_CENTER" prefHeight="110.0" prefWidth="446.0" style="-fx-background-color: trasnparent;" />
+                  <HBox fx:id="com2" alignment="BOTTOM_CENTER" layoutX="-2.0" layoutY="154.0" prefHeight="89.0" prefWidth="441.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</Pane>
